@@ -54,7 +54,7 @@ let controls: OrbitControls
 onMounted(() => {
   animateDots()
   gltfLoader.load(
-    "/oprecTwo/himsi.gltf",
+    "/himsi.gltf",
     (gltf: any) => {
       gltf.scene.scale.set(0.35, 0.35, 0.35)
       gltf.scene.position.set(0, 0, 0)

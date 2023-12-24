@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app: {
-    baseURL: "/oprecTwo/",
-  },
+  // app: {
+  //   baseURL: "/oprecTwo/",
+  // },
   pages: true,
   css: ["~/assets/css/main.css"],
   postcss: {
@@ -11,5 +11,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@pinia/nuxt", "@vueuse/motion/nuxt"],
+  modules: ["@pinia/nuxt"],
+  ssr: false,
 })
