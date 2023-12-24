@@ -24,7 +24,7 @@ const reverse = ref(false)
               ? 'bg-transparent text-white border border-white'
               : 'bg-white text-black'
           "
-          class="rounded-md py-4 md:py-2 px-[10px] transition-colors duration-300 text-[20px] md:text-[16px]"
+          class="rounded-md py-4 md:py-2 px-[10px] transition-colors duration-300 text-[18px] md:text-[16px]"
         >
           Link Pendaftaran
         </button>
@@ -49,7 +49,7 @@ const reverse = ref(false)
               ? 'bg-white  text-black'
               : 'bg-transparent border border-white  text-white'
           "
-          class="rounded-md py-4 md:py-2 px-[10px] transition-colors duration-300 text-[20px] md:text-[16px]"
+          class="rounded-md py-4 md:py-2 px-[10px] transition-colors duration-300 text-[18px] md:text-[16px]"
         >
           Link Detail Divisi
         </button>
