@@ -8,9 +8,6 @@ const store = useGeneralStore()
       <div
         class="flex justify-between font-[Satoshi-Medium] text-lg md:text-xl text-gray-100 cursor-default"
       >
-        <h1>
-          2024/2025
-        </h1>
         <h1>....</h1>
       </div>
     </div>
