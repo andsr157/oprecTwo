@@ -6,7 +6,7 @@ const store = useGeneralStore()
   <section>
     <div class="fixed z-50 w-full p-7" v-if="!store.isLoading">
       <div
-        class="flex justify-between font-[Satoshi-Medium] text-lg md:text-xl text-gray-100 cursor-default"
+        class="flex justify-start font-[Satoshi-Medium] text-lg md:text-xl text-gray-100 cursor-default"
       >
         <h1>
           HIMSI SURAKARTA <br />
